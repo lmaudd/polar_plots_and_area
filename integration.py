@@ -36,5 +36,4 @@ def d_int(function, llx, ulx, lly, uly):
     def lower_limit_y(x):
         return eval(lly)
 
-
     return(dblquad(integrand, llx, ulx, lower_limit_y, upper_limit_y)[0])
